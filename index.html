@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>pocemon</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="png"
+        src="./img/pokemon_logo.png"
+        alt="pokemon_logo"
+        width="610"
+        height="225"
+      />
+
+      <div class="row">
+        <div class="col-5">
+          <select id="type" class="form-select">
+            <option value="all" disabled>All</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="wropper"></div>
+    </div>
+    <script src="./data.js"></script>
+    <script src="./plugin.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

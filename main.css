@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: yellow;
+}
+
+.png{
+    margin-left: 25%;
+}
+
+.wropper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 300px;
+    margin-top: 30px;
+    /* height: 300px; */
+}
+
+.form-select{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 12px ;
+}
+
+.list-item{
+    display: flex;
+
+}
+
+li{
+    list-style-type: none;
+    margin-left: -30px;
+    margin-right: 40px;
+}
